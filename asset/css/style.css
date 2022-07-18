@@ -1,0 +1,597 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color:#fff;
+    height: 10vh;
+    align-items: center;
+    z-index: 100;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+header li a{
+    font-size: 25px;
+    padding:0px 30px;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+   border-radius: 10px;
+}
+header li a:hover{
+    box-shadow: 2px 2px 12px grey;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color:green;
+    color: #fff;
+}
+.active{
+    box-shadow: 2px 2px 12px grey;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color:green;
+    color: #fff;
+}
+.active:hover{
+    background-color:green;
+}
+.heading h2{
+    font-size: 25px;
+    color: darkblue;
+    font-weight: 400;
+}
+header .log{
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+}
+header i{
+    font-size: 25px;
+    color:green;
+}
+.icons{
+    float: right;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin-right: 2%;
+    padding: 35px;
+}
+.icons a{
+    padding: 0px 10px;
+    color: green;
+    font-size: 20px;
+}
+section{
+    background-color: aquamarine;
+    height: 92vh;
+}
+.logo{
+    float: right;
+    margin-top: 8%;
+}
+.logo img{
+    padding: 10px 80px;
+}
+.dish{
+    text-align:justify;
+    padding-top: 20%;
+    padding-left: 11%;
+}
+.dish h2{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 300;
+    color: green;
+}
+.dish h3{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+}
+.dish p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+.dish button{
+    font-size: 30px;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+    border-style: none;
+    background-color: blue;
+}
+.dish button a{
+    text-decoration: none;
+    color:#fff;
+}
+.dish button:hover{
+    background-color: green;
+}
+.body{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 100px;
+}
+.body p{
+    color: green;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.body h2{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-container{
+    display: flex;
+    padding: 10px 150px;
+    background-color: aliceblue;
+}
+.box-container .box1{
+    padding: 70px 50px;
+    margin: 10px 14px;
+    box-shadow:  0px 0px 5px gray;
+    border-radius: 10px;
+    background-color:white;
+    text-align: center;
+}
+.box1:hover{
+    background-color:bisque;
+    transition: 1s;
+}
+.box1 h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.box1 span{
+    font-size: 25px;
+    color: green;
+}
+.box1 a{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+}
+.box1 a:hover{
+    background-color: green;
+}
+.box-count{
+    display: flex;
+    padding: 10px 150px;
+    background-color: aliceblue;
+}
+.box-count .box2{
+    padding: 70px 45px;
+    margin: 10px 14px;
+    box-shadow:  0px 0px 5px gray;
+    border-radius: 10px;
+    background-color:white;
+    text-align: center;
+}
+.box2:hover{
+    background-color:bisque;
+    transition: 1s;
+}
+.box2 h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.box2 span{
+    font-size: 25px;
+    color: green;
+}
+.box2 a{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+}
+.box2 a:hover{
+    background-color: green;
+}
+.about{
+    text-align: center;
+    margin: 50px;
+    position: relative;
+}
+.about p{
+    padding: 10px;
+    font-size: 20px;
+    color:green;
+}
+.body-img{
+    display: flex;
+}
+.body-img img{
+    width: 40%;
+    margin-left: 10%;
+     margin-top: 8%;
+}
+.about-head{
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.about-head h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: darkblue;
+}
+.about-head p{
+    text-align:left;
+    padding:0px 180px;
+    color:black;
+}
+.font-1{
+    display: flex;
+    position: absolute;
+    right:6%;
+    top: 110%;
+    padding: 10px 10px;
+}
+.font{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 0px 0px 4px black;
+   margin: 10px;
+   padding: 15px 15px;
+   /* border-radius: 10px; */
+   background: #eee;
+   color:black;
+}
+.font i{
+    color: green;
+    padding: 0px 10px;
+}
+.about button{
+    font-size: 30px;
+    margin-left: 18%;
+    box-shadow: 0px 0px 4px #eee;
+    background-color:darkblue;
+    position: absolute;
+   right: 35%;
+   bottom: 10%;
+}
+.about button a{
+    text-decoration: none;
+    color:white;
+    margin: 10px 10px;
+}
+.about button:hover{
+    background-color: green;
+    width: 13%;
+}
+.services{
+    text-align: center;
+    background: #eee;
+}
+.services h2{
+    color: green;
+    padding: 10px;
+}
+.services p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0px 80px;
+    background: #eee;
+}
+.row .row-1{
+    padding: 50px 50px;
+    margin: 10px 20px;
+    box-shadow:  0px 0px 5px gray;
+    border-radius: 10px;
+    background-color:white;
+    text-align: left;
+}
+.row-1 img{
+  width: 110%;
+  position: relative;
+  bottom: 10%;
+  right:5%;
+}
+.row-1 h2{
+    font-size: 30px;
+    padding: 15px;
+}
+.row-1 span{
+    font-size: 25px;
+    color: green;
+}
+.row-1 a{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+}
+.row-1 a:hover{
+    background-color: green;
+}
+.row-1:hover{
+    background-color: bisque;
+    transition:1s;
+}
+.row-data{
+    display: flex;
+    padding: 0px 80px;
+    background: #eee;
+}
+.row-data .row-2{
+    padding: 50px 50px;
+    margin: 10px 20px;
+    box-shadow:  0px 0px 5px gray;
+    border-radius: 10px;
+    background-color:white;
+    text-align: left;
+}
+.row-2 img{
+    width: 110%;
+  position: relative;
+  bottom: 10%;
+  right:5%;
+}
+.row-2 h2{
+    font-size: 30px;
+    padding: 15px;
+}
+.row-2 span{
+    font-size: 25px;
+    color: green;
+}
+.row-2 a{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+}
+.row-2 a:hover{
+    background-color: green;
+}
+.row-2:hover{
+    background-color:beige;
+    transition:1s;
+}
+.row-page{
+    display: flex;
+    padding: 0px 80px;
+    background: #eee;
+}
+.row-page .row-3{
+    padding: 50px 50px;
+    margin: 10px 20px;
+    box-shadow:  0px 0px 5px gray;
+    border-radius: 10px;
+    background-color:white;
+    text-align:left;
+}
+.row-3 img{
+ width: 110%;
+  position: relative;
+  bottom: 10%;
+  right:5%;
+}
+.row-3 h2{
+    font-size: 30px;
+    padding: 15px;
+}
+.row-3 span{
+    font-size: 25px;
+    color: green;
+}
+.row-3 a{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   margin: 10px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+}
+.row-3 a:hover{
+    background-color: green;
+}
+.row-3:hover{
+    background-color:cornsilk;
+    transition:1s;
+}
+.review{
+    text-align: center;
+    margin: 50px;
+}
+.review h2{
+    font-size: 25px;
+    color: green;
+}
+.review h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+.cols{
+    display: flex;
+    padding: 0px 80px;
+    position: relative;
+}
+.cols .column{
+    padding: 10px 10px;
+    position: relative; 
+}
+.column{
+    margin: 10px 20px;
+    box-shadow:  0px 0px 10px gray;
+    border-radius: 10px;
+    width: 100%;
+    height: 35vh;
+}
+.column img{
+    width: 20%;
+    height: 10vh;
+    border-radius: 50%;
+}
+.column-1 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    color:darkblue;
+}
+.column-1 p{
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.column-1 i{
+    font-size: 60px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: gray;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    /* background-color: aliceblue; */
+}
+.foot1 h2{
+    font-size: 30px;
+    padding: 10px;
+    color:darkslateblue;
+}
+.foot1 a{
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color:grey;
+    font-size: 20px;
+}
+.foot1 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.main{
+    text-align: center;
+    margin-top: 5%;
+    background-color:lightgray;
+}
+.main h2{
+    font-size: 20px;
+    color: green;
+}
+.main h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.main-1{
+    background-color: lightgray;
+    height: 85vh;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+}
+.order form{
+   border-radius:10px;
+   background:#fff;
+   padding:20px;
+   margin:auto;
+   width: 60%;
+}
+.order form .inputBox{
+    display: flex;
+   justify-content: space-between;
+   color: gray;
+}
+.order form .inputBox .input{
+    width:49%;
+}
+.order form .inputBox .input span{
+     display:block;
+     padding:10px 0px;
+     font-size: 15px;
+}
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+   background:#eee;
+   border-radius:10px;
+   padding:10px;
+   font-size: 15px;
+   margin-bottom:15px;
+   width:90%;
+   outline-color: green;
+   border:none;
+   resize: none;
+}
+.order form .btn{
+    font-size: 20px;
+    text-decoration: none;
+   box-shadow: 2px 2px 12px grey;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: #fff;
+   outline: none;
+   border: none;
+}
+.order form .btn:hover{
+    background-color: green;
+    width: 16%;
+}
+.end{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+.end h2{
+    font-size: 25px;
+    font-weight: lighter;
+    color:grey;
+}
+.end span{
+    color: green;
+}
